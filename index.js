@@ -1,2 +1,9 @@
 
-let num = [198,2,3,4,5,6,7,8,89]
+let num = [1,2,3,4,5, 198,89]
+
+function callNum(num) {
+num.map(n => {
+print(n)
+})
+}
+
